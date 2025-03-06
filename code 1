@@ -1,0 +1,12 @@
+def sum_even(x):
+    x=6
+    sum = 0
+    for i in range(1, x):
+        if i % 2 == 0:
+            print("this is even")
+            sum +=i
+    else:
+        print("this is oddddddd")
+    return sum
+
+print(sum_even(6))
