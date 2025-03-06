@@ -1,0 +1,4 @@
+def calculate_bmi(w,h):
+    bmi = w / (h^2)
+    return bmi
+print(calculate_bmi(10,20))
